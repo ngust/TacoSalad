@@ -1,0 +1,100 @@
+
+#header {
+	width: 700px;
+	height: 40px;
+	background-color: #BBBBEF;
+	border-radius: 8px;
+	text-align: center;
+	padding-bottom: 2px;
+}
+
+#button {
+	width: 150px;
+	padding: 8px;
+	background-color: #0CF5A7;
+	border-radius: 8px;
+	text-align: center;
+}
+
+#button:active {
+	border: 5px solid #021a40;
+	opacity: 0.6;
+}
+
+#header:hover {
+	color: yellow;
+	}
+
+#main {
+	border-radius: 30%;
+	box-shadow: 6px 6px 6px 6px #005206;
+	}
+
+img {
+   padding:1px;
+   	border:1px solid #021a40;
+   transition: opacity 2s ease;
+   margin: 8px;
+}
+
+img:hover {
+	opacity: 0.5;	
+}
+
+td {
+	height: 1px;
+}
+
+.left {
+   	float: left;
+    list-style-type: none;
+}
+.right {
+	float: right;
+	list-style-type: none;
+}
+
+#directions {
+	width: 550px;
+	background-color: pink;
+	height: 100%;
+
+}
+#directions li {
+margin: 10px 0
+}
+
+.strikethrough
+{
+	text-decoration: line-through;
+}
+
+#ingHeader{
+	line-height: 0.5;
+}
+
+
+/* Check box stuff */
+input[type=checkbox] {
+    padding-left:5px;
+    padding-right:5px;
+    border-radius:4px;
+
+    border: double 2px #00F;
+
+    background-color: #DAF7EC;
+    color:#FFF;
+    white-space: nowrap;
+    overflow:hidden;
+
+    width:15px;
+    height:15px;
+}
+
+input[type=checkbox]:checked {
+    background-color:#D5F505;
+}
+
+input[type=checkbox]:hover {
+    box-shadow:0px 0px 10px #1300ff;
+}
